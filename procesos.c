@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <sys/wait.h>
 
-
 int main( ){
    pid_t child_pid;
 
@@ -21,7 +20,6 @@ int main( ){
       printf ("SOY EL PROCESO PADRE! ");
       printf ("MI PROCESS ID ES = %d, Y EL DE MI PADRE = %d, Y EL DEL HIJO RECIEN CREADO = %d\n", getpid( ), getppid( ), child_pid);
    }
-
 
 sleep(10);
 
